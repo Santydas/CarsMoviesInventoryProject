@@ -17,7 +17,7 @@ public class CarsMoviesEntity {
     private UUID id;
 
     @JsonProperty("carMovieName")
-    @NotBlank(message = "Movie name is required")
+    @NotBlank(message = "Movie nameses is required")
     @Size(min = 3, max = 100, message = "Movie name must be between 3 and 100 characters")
     private String carMovieName;
 
